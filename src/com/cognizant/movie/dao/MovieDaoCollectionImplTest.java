@@ -37,14 +37,14 @@ public class MovieDaoCollectionImplTest {
     }
 
     public static void testEditMovie() {
-        System.out.println("Modify Movie Item");
+        System.out.println("Modify Movie List");
         Movie movieItem = new Movie(1, "After", 2787965087L, true,
                 (Date) DateUtil.convertToDate("15/03/2017"), "Romance", false);
         moviedao.modifyMovieList(movieItem);
     }
 
     public static void testGetMovieById() {
-        System.out.println("Get Movie Item");
+        System.out.println("Get Movie List");
         System.out.printf("%-10s%-20s%-20s%-10s%-20s%-20s%s\n", "Id", "Title", "Box Office",
                 "Active", "Date of Launch", "Genre", "Has Teaser");
         Movie movieItem = moviedao.getMovieById(1);
