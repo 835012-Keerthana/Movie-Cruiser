@@ -3,24 +3,24 @@ package com.cognizant.movie.model;
 import java.util.List;
 
 public class Favorite {
-    private double noOfFavorites;
-    private List<Movie> favoriteList;
+     int noOfFavorites;
+     List<Movie> favoriteList;
 
     public Favorite() {
         // TODO Auto-generated constructor stub
     }
 
-    public Favorite(double noOfFavorites, List<Movie> favoriteList) {
+    public Favorite(int noOfFavorites, List<Movie> favoriteList) {
         super();
         this.noOfFavorites = noOfFavorites;
         this.favoriteList = favoriteList;
     }
 
-    public double getNoOfFavorites() {
+    public int getNoOfFavorites() {
         return noOfFavorites;
     }
 
-    public void setNoOfFavorites(double noOfFavorites) {
+    public void setNoOfFavorites(int noOfFavorites) {
         this.noOfFavorites = noOfFavorites;
     }
 

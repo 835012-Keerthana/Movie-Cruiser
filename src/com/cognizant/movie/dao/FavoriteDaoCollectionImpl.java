@@ -46,8 +46,10 @@ public class FavoriteDaoCollectionImpl implements FavoriteDao {
             throw new FavoriteEmptyException();
             // break;
         }
-        List<Movie> menuItem = favorite.getFavoriteList();
-        double noOfFavorites = 0;
+        List<Movie> movie = favorite.getFavoriteList();
+        int noOfFavorites=0;
+        noOfFavorites=movie.size();
+        favorite.setNoOfFavorites(noOfFavorites);
         return favorite;
     }
 }
