@@ -31,7 +31,8 @@ public class FavoriteDaoCollectionImplTest {
             for (Movie menuItem : list) {
                 System.out.println(menuItem);
             }
-            System.out.println("Total Price: " + favoriteDao.getAllFavorites(1).getNoOfFavorites());
+            System.out.println(
+                    "No.of :Favorites: " + favoriteDao.getAllFavorites(1).getNoOfFavorites());
         } catch (FavoriteEmptyException e) {
             System.err.println(e);
         }

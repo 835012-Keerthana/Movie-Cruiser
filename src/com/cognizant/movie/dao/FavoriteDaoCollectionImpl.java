@@ -47,8 +47,8 @@ public class FavoriteDaoCollectionImpl implements FavoriteDao {
             // break;
         }
         List<Movie> movie = favorite.getFavoriteList();
-        int noOfFavorites=0;
-        noOfFavorites=movie.size();
+        int noOfFavorites = 0;
+        noOfFavorites = movie.size();
         favorite.setNoOfFavorites(noOfFavorites);
         return favorite;
     }

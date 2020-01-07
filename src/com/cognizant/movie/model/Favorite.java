@@ -3,8 +3,8 @@ package com.cognizant.movie.model;
 import java.util.List;
 
 public class Favorite {
-     int noOfFavorites;
-     List<Movie> favoriteList;
+    int noOfFavorites;
+    List<Movie> favoriteList;
 
     public Favorite() {
         // TODO Auto-generated constructor stub
