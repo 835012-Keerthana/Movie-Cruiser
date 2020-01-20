@@ -11,7 +11,6 @@ header {
     margin: 0%;
     text-indent: 1%;
 }
-
 /* Footer for all web pages */
 footer {
     background-color: #737480;
@@ -22,7 +21,6 @@ footer {
     position: fixed;
     font-size: 20px;
 }
-
 /* Navigation */
 nav a {
     text-align: right;
@@ -32,7 +30,6 @@ nav a {
     top: 1.5%;
     font-size: 20px;
 }
-
 /* Headings */
 h1 {
     font-size: 30px;
@@ -40,59 +37,50 @@ h1 {
     position: fixed;
     left: 5%;
 }
-
 /* Admin and Customer table Id */
 #movie {
-    top: 20%;
+    top: 23%;
     position: fixed;
     left: 5%;
     border: 0px solid #fcfcfc;
     width: 38%;
 }
-
 /* Table data Id name in favorites webpage */
 #no-of-favorites {
     top: 35%;
     left: 5%;
     position: fixed;
 }
-
 /* Table data Id name in favorites empty webpage */
 #no-of-favoritesone {
     top: 32.5%;
     left: 5%;
     position: fixed;
 }
-
 /* Anchor link Id for favorites */
 #favorites {
     margin-left: 90%;
 }
-
 /* Edit movie table Id */
 #edit-movie {
     top: 20%;
     position: fixed;
     left: 5%;
 }
-
 /* Edit movie table Id 2 */
 #edit-movie2 {
     top: 26%;
     position: fixed;
     left: 5%;
 }
-
 /* Edit movie label Id */
 #edit-movie label {
     color: #55595e;
 }
-
 /* Edit movie label Id */
 #edit-movie2 label {
     color: #55595e;
 }
-
 /* Save button in edit movie webpage */
 #button1 {
     width: 7%;
@@ -101,7 +89,6 @@ h1 {
     background-color: #2a5587;
     color: #fcfcfc;
 }
-
 /* P tag in edit movie status webpage */
 p {
     color: #37bf7b;
@@ -109,26 +96,11 @@ p {
     position: fixed;
     left: 5%;
 }
-
-/* P tag Id name in customer notification webpage */
-#movies {
-    left: 20%;
-}
-
-/* Customer notification page */
-#movie-added {
-    top: 30%;
-    position: fixed;
-    left: 5%;
-    width: 45%;
-}
-
 /* P tag Id name in favorites empty webpage */
 #favorites-empty {
     color: #737480;
     font-size: 19px;
 }
-
 /* Table Id name in favorites webpage */
 #favorites-page {
     width: 30%;
@@ -136,37 +108,28 @@ p {
     position: fixed;
     left: 5%;
 }
-
-/* P tag Id name in favorites notification webpage */
-#remove-movie {
-    top: 15%;
-    text-align: center;
-    position: fixed;
-    left: 12%;
-    font-size: 19px;
-}
-
 /* Anchor Id name for Delete */
 #favorites-link {
     color: #000000;
 }
-
 /* Anchor tag Id name in favorites empty webpage */
 #favorites-empty a {
     color: #1a83c4;
     font-size: 19px;
 }
-
-/* B tag id in customer notification webpage */
-#customer-notification {
-    font-size: 22px;
-    left: 20%;
-    position: fixed;
+/* Table Id name in favorites notification webpage */
+#add-to-favorite {
+    top: 15%;
+    font-family: Calibri;
+    color: #37bf7b;
+    left: 10%;
+    font-size: 21.5px;
 }
 
-/* Table Id name in favorites notification webpage */
-#favorites-notification {
-    top: 22%;
-    left: 5%;
-    position: fixed;
+#remove-to-favorite {
+    top: 15%;
+    font-family: Calibri;
+    color: #37bf7b;
+    left: 10%;
+    font-size: 21.5px;
 }
